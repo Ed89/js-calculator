@@ -1,0 +1,122 @@
+body{
+
+
+margin: auto;
+display: flex;
+    justify-content: center;
+  align-items: center;
+
+}
+
+
+.item{
+  background-color: rgb(23, 196, 211);
+    margin: 2px;
+   color: white;
+   border-radius: 5px;
+font-size: 2vh;
+
+}
+input[type="text"]
+{
+    font-size:30px;
+    text-align: center;
+}
+div{
+    background-color: rgb(15, 132, 142);
+     border-radius: 5px;
+
+}
+h2{
+ color: white;
+  text-align: center;
+    margin: 20px;
+    font-style: italic;
+    font-size:30px;
+
+}
+.button-keys{
+
+  display: grid;
+   height: 700px;
+    width: 500px;
+
+   background-color: rgb(15, 132, 142);
+  grid-template-areas:
+    "display display display display"
+    "clear clear del divide"
+     "number1 number2 number3 multiply"
+     "number4 number5 number6 add"
+    "number7 number8 number9 subtract"
+    "decimal number0 sum sum";
+}
+hr{
+  width: 96%;
+  justify-self: center;
+    border: 1px solid rgb(23, 196, 211);
+}
+.display{
+
+  grid-area: display;
+  width: 97%;
+    height: 90%;
+    border-radius: 10px;
+  justify-self: center;
+  background-color: rgb(13, 111, 119);
+
+
+}
+.clear{
+  grid-area: clear;
+}
+.del{
+  grid-area: del;
+}
+.divide{
+  grid-area: divide;
+}
+.number1{
+  grid-area: number1;
+}
+.number2{
+  grid-area: number2;
+}
+.number3{
+  grid-area: number3;
+}
+.multiply{
+  grid-area: multiply;
+}
+.number4{
+  grid-area: number5;
+}
+.number5{
+  grid-area: number4;
+}
+.number6{
+  grid-area: number6;
+}
+.add{
+  grid-area: add;
+}
+.number7{
+  grid-area: number7;
+}
+.number8{
+  grid-area: number8;
+}
+.number9{
+  grid-area: number9;
+}
+.subtract{
+  grid-area: subtract;
+}
+.decimal{
+  grid-area: decimal;
+}
+.number0{
+  grid-area: number0;
+}
+.sum{
+  grid-area: sum;
+}

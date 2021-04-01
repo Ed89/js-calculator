@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="caclculator">
+        <h2>CSS CALCULATOR</h2>
+        <hr>
+
+        <div class="item button-keys">
+
+            <form name="form" class="display">
+            <input type="text" class="item display" name="text" />
+            </form>
+            <button class="item number1" onclick="insert(1)">1</button>
+            <button class="item number2" onclick="insert(2)">2</button>
+            <button class="item number3" onclick="insert(3)">3</button>
+            <button class="item number4" onclick="insert(4)">4</button>
+            <button class="item number5" onclick="insert(5)">5</button>
+            <button class="item number6" onclick="insert(6)">6</button>
+            <button class="item number7" onclick="insert(7)">7</button>
+            <button class="item number8" onclick="insert(8)">8</button>
+            <button class="item number9" onclick="insert(9)">9</button>
+            <button class="item number0" onclick="insert(0)">0</button>
+            <button class="item decimal" onclick="dot('.')">.</button> <!-- onclick="dot('.')" -->
+
+            <button class="item add" onclick="operator('+')">+</button>
+            <button class="item subtract" onclick="operator('-')">-</button>
+            <button class="item multiply" onclick="operator('*')">*</button>
+            <button class="item item divide" onclick="operator('/')">/</button>
+            <button class="item clear" onclick="clean()">AC</button>
+            <button class="item del" onclick="back()">Del</button>
+            <button class="item sum" onclick="equal()">=</button>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body></html>
